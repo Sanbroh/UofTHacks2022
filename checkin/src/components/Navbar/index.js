@@ -17,7 +17,9 @@ const Navbar = () => {
     <>
       <div class="topnav bg-highlight">
         <div class="topnav-left">
-          <img to="/" class="logo" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" />
+          <Link to="/">
+            <img class="logo" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" />
+          </Link>
           <div class="links">
             <NavLink class="navlink opportunities nanum white" to="/opportunities">Opportunities</NavLink>
             <NavLink class="navlink communities nanum white" to="/communities">Communities</NavLink>
