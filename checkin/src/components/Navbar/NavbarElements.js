@@ -3,30 +3,31 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: #63D471;
-  height: 85px;
-  width: 100vw;
-  display: flex;
-  position: absolute;
+  background-color: #3d405b;
+  position: fixed;
   top: 0;
   left: 0;
-  justify-content: space-between;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
-  z-index: 12;
-  /* Third Nav */
-  /* justify-content: flex-start; */
+  width: 100%;
+  height: 4em;
+`;
+
+export const LogoLink = styled(Link)`
+  font-size: 21px;
+  margin-top: 0.85em;
+  cursor: pointer;
 `;
 
 export const NavLink = styled(Link)`
-  color: #808080;
-  display: flex;
+  color: white;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
   cursor: pointer;
+  margin-left: 3vw;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
   &.active {
-    color: #000000;
+    color: #e07a5f;
   }
 `;
 
@@ -47,7 +48,6 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
@@ -61,7 +61,6 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-right: 24px;
   /* Third Nav */
   /* justify-content: flex-end;
   width: 100vw; */
@@ -81,7 +80,6 @@ export const NavBtnLink = styled(Link)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;

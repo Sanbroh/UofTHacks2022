@@ -7,7 +7,8 @@ const Home = () => {
         display: 'flex',
         justifyContent: 'Right',
         alignItems: 'Right',
-        height: '100vh'
+        height: '100vh',
+        marginTop: '4em'
       }}
     >
       <h1>Welcome to GeeksforGeeks</h1>

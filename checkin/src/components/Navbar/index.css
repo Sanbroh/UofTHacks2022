@@ -1,0 +1,50 @@
+.topnav {
+  width: 100vw;
+  height: 4em;
+  top: 0;
+  left: 0;
+  position: fixed;
+  border-bottom-style: solid;
+  border-bottom-color: #f2cc8f;
+  border-bottom-width: 0.25em;
+  line-height: 4em;
+}
+
+.topnav .topnav-left {
+  position: absolute;
+  left: 5vw;
+}
+
+.topnav .topnav-right {
+  position: absolute;
+  right: 5vw;
+}
+
+.topnav .topnav-left .logo {
+  height: 2em;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  float: left;
+  margin-top: 1em;
+}
+
+.links {
+  display: inline-block;
+  text-align: center;
+  margin-left: 1vw;
+}
+
+.navlink {
+  display: block;
+  font-size: 14px;
+}
+
+.topnav-left .navlink {
+  margin-left: 3vw;
+}
+
+.topnav-right .navlink {
+  margin-right: 3vw;
+}

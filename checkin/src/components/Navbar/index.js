@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink as Link } from 'react-router-dom';
 import {
   Nav,
   NavLink,
@@ -6,34 +7,26 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
+  LogoLink,
 } from './NavbarElements';
+import './index.css';
+import './base.css';
 
 const Navbar = () => {
   return (
     <>
-      <Nav>
-        <Bars />
-
-        <NavMenu>
-          <NavLink to='/about' activeStyle>
-            About
-          </NavLink>
-          <NavLink to='/communities' activeStyle>
-            Communities
-          </NavLink>
-          <NavLink to='/opportunities' activeStyle>
-            Opportunities
-          </NavLink>
-          <NavLink to='/profile' activeStyle>
-            Profile
-          </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
-        </NavMenu>
-        <NavBtn>
-          <NavBtnLink to='/sign-up'>Sign Up</NavBtnLink>
-        </NavBtn>
-      </Nav>
+      <div class="topnav bg-highlight">
+        <div class="topnav-left">
+          <img to="/" class="logo" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" />
+          <div class="links">
+            <NavLink class="navlink opportunities nanum white" to="/opportunities">Opportunities</NavLink>
+            <NavLink class="navlink communities nanum white" to="/communities">Communities</NavLink>
+          </div>
+        </div>
+        <div class="topnav-right">
+          <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>
+        </div>
+      </div>
     </>
   );
 };
