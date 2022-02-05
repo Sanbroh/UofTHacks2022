@@ -1,0 +1,16 @@
+.opportunities-button {
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 1em 2em;
+  background-color: #f2cc8f;
+  border-radius: 16px;
+  border-style: none;
+  color: #3d405b;
+  transition: 0.5s;
+}
+
+.opportunities-button:hover {
+  transition: 0.5s;
+  color: #f2cc8f;
+  background-color: #3d405b;
+}
