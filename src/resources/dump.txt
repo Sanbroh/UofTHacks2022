@@ -1,0 +1,17 @@
+<div class="topnav bg-highlight">
+  <div class="topnav-left">
+    <div class="logo-container">
+      <h1 class="logo light oxygen white">Check<i class="bold color-secondary">In</i></h1>
+    </div>
+    <div class="links">
+      <h2 class="navlink volunteer nanum white">Volunteer</h2>
+      <h2 class="navlink browse nanum white">Browse</h2>
+    </div>
+  </div>
+  <div class="topnav-right">
+    <div class="links">
+      <h2 class="navlink volunteer nanum white">Volunteer</h2>
+      <h2 class="navlink browse nanum white">Browse</h2>
+    </div>
+  </div>
+</div>

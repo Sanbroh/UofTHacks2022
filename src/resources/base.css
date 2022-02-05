@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.bg-main {
+  background-color: #f4f1de;
+}
+
+.bg-secondary {
+  background-color: #e07a5f;
+}
+
+.bg-highlight {
+  background-color: #3d405b;
+}
+
+.bg-highlight2 {
+  background-color: #81b29a;
+}
+
+.bg-foundation {
+  background-color: #f2cc8f;
+}
+
+.color-main {
+  color: #f4f1de;
+}
+
+.color-secondary {
+  color: #e07a5f;
+}
+
+.color-highlight {
+  color: #3d405b;
+}
+
+.color-highlight2 {
+  color: #81b29a;
+}
+
+.color-foundation {
+  color: #f2cc8f;
+}
+
+.white {
+  color: white;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.light {
+  font-weight: lighter !important;
+}
+
+.center-vertical {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.supermercado {
+  font-family: 'Supermercado One', cursive;
+}
+
+.oxygen {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.nanum {
+  font-family: 'Nanum Gothic', sans-serif;
+}
