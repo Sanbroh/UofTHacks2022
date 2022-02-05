@@ -69,3 +69,21 @@
 .nanum {
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+
+
+.about-us-header {
+  margin: 3vw;
+  width: 94vw;
+  height: 50vw;
+}
+
+.about-us-header h1{
+  padding: 20vw auto 0;
+}
+
+.about-us-header p {
+  margin: 2vw 15vw;
+  text-align: center;
+
+}
