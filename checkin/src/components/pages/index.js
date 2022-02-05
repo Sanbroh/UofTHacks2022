@@ -21,6 +21,8 @@ const Home = () => {
           filter: 'blur(0px)',
           height: '90vh',
           width: '100vw',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover'
         }}
       >
         <div
@@ -48,7 +50,7 @@ const Home = () => {
               fontWeight: 'normal',
               color: 'white',
               fontSize: '18px',
-              marginTop: '1em'
+              marginTop: '2em'
           }}>
             See where you are needed right now.
           </h2>
@@ -57,7 +59,7 @@ const Home = () => {
               position: 'absolute',
               left: '50%',
               transform: 'translateX(-50%)',
-              marginTop: '1em',
+              marginTop: '2em',
             }}
             class="opportunities-button"
           >
