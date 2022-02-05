@@ -4,14 +4,17 @@ const Communities = () => {
   return (
     <div
       style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
         height: '100vh',
-        marginTop: '4em'
+        marginTop: '4em',
+        backgroundColor: '#f4f1de',
+        width: '100vw',
+        position: 'absolute',
+        left: 0,
+        top: 0,
+        zIndex: -1,
       }}
     >
-      <h1>GeeksforGeeks is a geek.</h1>
+      
     </div>
   );
 };

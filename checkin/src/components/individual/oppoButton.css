@@ -1,0 +1,25 @@
+button {
+  width: 18.5em;
+  height: 4em;
+  border-Style: solid;
+  border-Width: 0.2em;
+  border-Color: #3d405b;
+  border-Radius: 16px;
+  background-color: white;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #e07a5f;
+
+  box-shadow: 2px 2px 5px grey;
+  color: black;
+  font-family: 'Supermercado One', cursive;
+  font-weight: bolder;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #e07a5f;
+
+  transition: 0.5s;
+}

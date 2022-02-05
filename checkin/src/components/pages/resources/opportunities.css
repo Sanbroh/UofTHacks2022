@@ -1,0 +1,39 @@
+.google-map {
+  width: 75vw;
+  height: 26.5em;
+  display: inline-block;
+
+  margin-left: 2em;
+
+  overflow: hidden;
+}
+
+.map-container {
+  width: 75vw;
+  height: 26.5em;
+}
+
+.google-map-timeline {
+  margin-left: 17.5em;
+  width: 75vw;
+  margin-top: -0.5em;
+  background-color: white;
+  border-Style: solid;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.outlined {
+  border-Style: solid;
+  border-Width: 0.2em;
+  border-Color: #3d405b;
+  border-Radius: 16px;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #e07a5f;
+  box-shadow: 2px 2px 5px grey;
+}

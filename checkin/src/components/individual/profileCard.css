@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.card-body {
+  height: 17.5em;
+  width: 15em;
+  border-Style: solid;
+  border-Width: 0.2em;
+  border-Color: #3d405b;
+  border-Radius: 32px;
+  background-color: white;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #e07a5f;
+
+  box-shadow: 2px 2px 5px grey;
+
+  padding-top: 2em;
+  cursor: default;
+}
+
+.user-image {
+  height: 5em;
+  width: 5em;
+  border-Style: solid;
+  border-Width: 0.15em;
+  border-Color: #3d405b;
+  border-Radius: 50%;
+
+  border-bottom-color: #e07a5f;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  cursor: pointer;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.name {
+  font-family: 'Supermercado One', cursive;
+  font-size: 16px;
+  color: black;
+
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.name:hover {
+  color: #e07a5f;
+
+  transition: 0.5s;
+}
+
+.email {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 10px;
+  color: grey;
+  margin-top: -1em;
+}
+
+.status {
+  font-family: 'Supermercado One', cursive;
+  color: #e07a5f;
+  font-size: 18px;
+  margin-top: 1.5em;
+}
+
+.grid {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: auto auto auto;
+  width: 12em;
+  margin-top: 1.5em;
+}
+
+.left {
+  border-right-style: solid;
+}
+
+.center {
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+.right {
+  border-left-style: solid;
+}
+
+.grid-box {
+  margin-left: auto;
+  margin-right: auto;
+  height: 3em;
+  width: 4em;
+
+  border-color: grey;
+  border-width: 0.05em;
+  text-align: center;
+}
+
+.number {
+  font-family: 'Supermercado One', cursive;
+  font-size: 24px;
+  margin-top: 0.1em;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.number:hover {
+  color: #e07a5f;
+
+  transition: 0.5s;
+}
+
+.description {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 10px;
+  margin-top: -1.5em;
+}

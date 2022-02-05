@@ -1,17 +1,58 @@
 import React from 'react';
+import ProfileCard from '../individual/profileCard'
+import OppoButton from '../individual/oppoButton'
+import GoogleMap from '../individual/googleMap'
+import MapTimeLine from '../individual/mapTimeLine'
+import CurrentTime from '../individual/currentTime'
+import './resources/opportunities.css'
 
 const Opportunities = () => {
   return (
     <div
       style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh',
-        marginTop: '4em'
+        height: '100%',
+        marginTop: '2em',
+        backgroundColor: '#f4f1de',
+        width: '100vw',
+        position: 'absolute',
+        left: 0,
+        top: 0,
+        zIndex: -1,
+        padding: '6vh 4vw'
       }}
     >
-      <h1>GeeksforGeeks is a geek.</h1>
+      <div class="title">
+        <h1>Browse Opportunities</h1>
+      </div>
+      <div style={{ display: 'inline-block' }}>
+        <ProfileCard
+          name="Thomas Tesselaar"
+          email="tthomas2@gmail.com"
+          status="Volunteer"
+          volunteerNum="32"
+          followerNum="1"
+          followingNum="2"
+          profileImage="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        />
+        <div style={{ marginTop: '1em' }}>
+          <OppoButton name="Check In"/>
+        </div>
+        <div style={{ marginTop: '1em' }}>
+          <OppoButton name="Volunteer History"/>
+        </div>
+      </div>
+      <div class="google-map outlined">
+        <div class="map-container">
+          <GoogleMap />
+        </div>
+      </div>
+      <div class="google-map-timeline outlined">
+        <CurrentTime />
+        <MapTimeLine />
+      </div>
+      <div class="requests">
+        
+      </div>
     </div>
   );
 };

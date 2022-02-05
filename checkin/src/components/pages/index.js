@@ -1,5 +1,6 @@
 import React from 'react';
 import './resources/index.css'
+import { NavLink as Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -54,17 +55,19 @@ const Home = () => {
           }}>
             See where you are needed right now.
           </h2>
-          <button
-            style={{
-              position: 'absolute',
-              left: '50%',
-              transform: 'translateX(-50%)',
-              marginTop: '2em',
-            }}
-            class="opportunities-button"
-          >
-            Browse Opportunities
-          </button>
+          <Link to="/opportunities">
+            <button
+              style={{
+                position: 'absolute',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                marginTop: '2em',
+              }}
+              class="opportunities-button"
+            >
+              Browse Opportunities
+            </button>
+          </Link>
         </div>
       </div>
     </div>
