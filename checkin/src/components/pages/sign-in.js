@@ -1,8 +1,7 @@
 import React from 'react';
 import Footer from '../individual/footer'
-import Signup from '../individual/signup'
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <div
     style={{
@@ -16,10 +15,9 @@ const SignUp = () => {
       padding: '10vh 4vw'
       }}
     >
-      <Signup />
       <Footer />
     </div>
   );
 };
 
-export default SignUp;
+export default SignIn;

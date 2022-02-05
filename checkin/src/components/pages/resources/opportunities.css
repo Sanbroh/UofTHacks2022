@@ -37,3 +37,11 @@
   border-bottom-color: #e07a5f;
   box-shadow: 2px 2px 5px grey;
 }
+
+.requests {
+  width: 75vw;
+  height: 100em;
+  margin-left: 17.5em;
+  margin-top: 1em;
+  background-color: white;
+}

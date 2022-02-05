@@ -1,0 +1,19 @@
+.footer-body {
+  width: 100%;
+  height: 20em;
+  background-color: #3d405b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-body p {
+  color: #e07a5f;
+  font-family: 'Oxygen', sans-serif;
+  margin-top: 5em;
+  cursor: default;
+}
+
+.footer-buffer {
+  height: 20em;
+}

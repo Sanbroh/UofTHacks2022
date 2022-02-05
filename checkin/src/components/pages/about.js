@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../individual/footer'
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
         marginTop: '4em'
       }}
     >
-      <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
+      
     </div>
   );
 };

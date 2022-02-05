@@ -4,13 +4,13 @@ import OppoButton from '../individual/oppoButton'
 import GoogleMap from '../individual/googleMap'
 import MapTimeLine from '../individual/mapTimeLine'
 import CurrentTime from '../individual/currentTime'
+import Footer from '../individual/footer'
 import './resources/opportunities.css'
 
 const Opportunities = () => {
   return (
     <div
       style={{
-        height: '100%',
         marginTop: '2em',
         backgroundColor: '#f4f1de',
         width: '100vw',
@@ -50,9 +50,10 @@ const Opportunities = () => {
         <CurrentTime />
         <MapTimeLine />
       </div>
-      <div class="requests">
-        
+      <div class="requests outlined">
+
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import './resources/index.css'
+import Footer from '../individual/footer'
 import { NavLink as Link } from 'react-router-dom';
 
 const Home = () => {
