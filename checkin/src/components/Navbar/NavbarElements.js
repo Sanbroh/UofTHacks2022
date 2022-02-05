@@ -70,19 +70,22 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(Link)`
-  border-radius: 4px;
-  background: #808080;
-  padding: 10px 22px;
-  color: #000000;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bolder;
+  background: #e07a5f;
+  padding: 0.5em 1em;
+  color: white;
   outline: none;
   border: none;
+  font-family: 'Oxygen', sans-serif;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #808080;
+    background: white;
+    color: #e07a5f;
   }
 `;

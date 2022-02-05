@@ -48,3 +48,8 @@
 .topnav-right .navlink {
   margin-right: 3vw;
 }
+
+.sign-in {
+  margin-right: 1vw;
+  display: inline-block;
+}
