@@ -19,7 +19,7 @@ const Home = () => {
         style={{
           backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),url("https://cdn.pixabay.com/photo/2021/11/06/00/32/volunteer-6772196_1280.jpg")',
           filter: 'blur(0px)',
-          height: '90vh',
+          height: '100vh',
           width: '100vw',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover'
@@ -30,7 +30,8 @@ const Home = () => {
             width: '40em',
             height: '20em',
             margin: 'auto',
-            paddingTop: '10em'
+            paddingTop: 'auto',
+            paddingBottom: 'auto'
           }}
         >
           <h1
