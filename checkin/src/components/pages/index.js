@@ -30,8 +30,7 @@ const Home = () => {
             width: '40em',
             height: '20em',
             margin: 'auto',
-            paddingTop: 'auto',
-            paddingBottom: 'auto'
+            paddingTop: '25vh'
           }}
         >
           <h1
