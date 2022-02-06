@@ -38,7 +38,12 @@ const Communities = () => {
           <OppoButton name="Volunteer History"/>
         </div>
       </div>
-      <CommunityCard number={10} image={'https://cdn.logojoy.com/wp-content/uploads/2018/05/30171740/1645.png'} />
+      <div class="requests outlined">
+        <div class="requests-nav">
+
+        </div>
+        <CommunityCard number={10} image={'https://cdn.logojoy.com/wp-content/uploads/2018/05/30171740/1645.png'} />
+      </div>
       <Footer />
     </div>
   );
