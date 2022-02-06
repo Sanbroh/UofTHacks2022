@@ -13,6 +13,48 @@
   height: 26.5em;
 }
 
+.profile-mask {
+  height: 19.75em;
+  width: 15.4em;
+  border-Radius: 32px;
+  position: absolute;
+
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  top: 6em;
+  left: 4vw;
+  text-align: center;
+}
+
+.profile-mask h1 {
+  font-size: 18px;
+  margin-top: 6.5em;
+  font-family: 'Supermercado One', cursive;
+}
+
+.profile-mask h2 {
+  font-size: 10px;
+  margin-top: -0.5em;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.profile-mask button {
+  font-weight: bolder;
+  border-style: none;
+  margin-top: 1em;
+  border-radius: 8px;
+  background-color: #e07a5f;
+  color: white;
+  width: 6em;
+  height: 2.5em;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.profile-mask button:hover {
+  color: #e07a5f;
+  background-color: white;
+}
+
 .google-map-timeline {
   margin-left: 17.5em;
   width: 75vw;

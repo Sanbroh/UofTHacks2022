@@ -35,6 +35,11 @@ const Opportunities = () => {
           followingNum="2"
           profileImage="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
         />
+        <div class="profile-mask">
+          <h1>You're not logged in!</h1>
+          <h2>Sign in now to access your records.</h2>
+          <button>Sign In</button>
+        </div>
         <div style={{ marginTop: '1em' }}>
           <OppoButton name="Check In"/>
         </div>
