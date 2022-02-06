@@ -3,7 +3,10 @@ import './opportunityCard.css'
 
 const OpportunityCard = ({
   number,
-  image
+  image,
+  spots,
+  max,
+  categories
 }) => {
   const activities = [];
 
@@ -14,12 +17,18 @@ const OpportunityCard = ({
           <img src={image} />
         </div>
         <div class="opportunityCard-text">
-          <h1>Northeastern Estate Care Centre</h1>
-          <h2>(Senior Care Centre)</h2>
-          <h3>Address: 14 York St. East, Toronto, L7T I8O</h3>
-          <h3>Email: neecares@gmail.com</h3>
-          <h3>Phone: 647-887-9829</h3>
-          <h3>Open: 9AM - 7PM (10AM - 5PM Sundays)</h3>
+          <div class="opportunityCard-description">
+            <h1>Northeastern Estate Care Centre</h1>
+            <h2>(Senior Care Centre)</h2>
+            <h3>Address: 14 York St. East, Toronto, L7T I8O</h3>
+            <h3>Email: neecares@gmail.com</h3>
+            <h3>Phone: 647-887-9829</h3>
+            <h3>Open: 9AM - 7PM (10AM - 5PM Sundays)</h3>
+          </div>
+          <div class="opportunityCard-info">
+            <h4>Volunteers Needed: {spots}/{max}</h4>
+            <h4>Categories: {categories}</h4>
+          </div>
         </div>
         <div class="opportunityCard-btn">
           <button>Volunteer</button>

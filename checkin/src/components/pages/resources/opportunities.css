@@ -14,7 +14,7 @@
 }
 
 .profile-mask {
-  height: 19.75em;
+  height: 20.2em;
   width: 15.4em;
   border-Radius: 32px;
   position: absolute;
@@ -24,6 +24,7 @@
   top: 6em;
   left: 4vw;
   text-align: center;
+  cursor: default;
 }
 
 .profile-mask h1 {
@@ -101,5 +102,34 @@
   border-bottom-width: 0.5em;
   border-bottom-color: #e07a5f;
   box-shadow: 2px 2px 5px grey;
+}
 
+.requests-nav img {
+  display: inline-block;
+  width: 1em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.requests-nav .btn-sort {
+  float: left;
+  margin-left: 1em;
+}
+
+.requests-nav .btn-search {
+  float: right;
+  margin-right: 1em;
+}
+
+.requests-nav .requests-nav-title {
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65.5vw;
+}
+
+.requests-nav .requests-nav-title h1 {
+  font-size: 18px;
+  font-family: 'Supermercado One', cursive;
 }

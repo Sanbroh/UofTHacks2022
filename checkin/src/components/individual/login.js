@@ -12,7 +12,7 @@ const Login = () => {
         <input class="input-box" type="text" id="password" name="password" placeholder="Password"></input><br /><br />
         <Link to="/sign-up"><p class="no-account">No account? Sign up here!</p></Link>
         <p class="forgot-password">Forgot your password?</p>
-        <input type="submit" id="button-submit" value="Submit"></input>
+        <input type="submit" id="button-submit" value="Log In"></input>
       </form>
     </div>
   );

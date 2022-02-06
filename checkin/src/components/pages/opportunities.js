@@ -7,6 +7,7 @@ import CurrentTime from '../individual/currentTime'
 import OpportunityCard from '../individual/opportunityCard'
 import Footer from '../individual/footer'
 import './resources/opportunities.css'
+import { NavLink as Link } from 'react-router-dom';
 
 const Opportunities = () => {
   return (
@@ -38,10 +39,10 @@ const Opportunities = () => {
         <div class="profile-mask">
           <h1>You're not logged in!</h1>
           <h2>Sign in now to access your records.</h2>
-          <button>Sign In</button>
+          <Link to="/sign-in"><button>Sign In</button></Link>
         </div>
         <div style={{ marginTop: '1em' }}>
-          <OppoButton name="Check In"/>
+          <OppoButton name="Check In Now"/>
         </div>
         <div style={{ marginTop: '1em' }}>
           <OppoButton name="Volunteer History"/>
@@ -58,9 +59,13 @@ const Opportunities = () => {
       </div>
       <div class="requests outlined">
         <div class="requests-nav">
-
+          <img class="btn-sort" src="https://cdn-icons-png.flaticon.com/512/25/25612.png" />
+          <div class="requests-nav-title">
+            <h1>Opportunities</h1>
+          </div>
+          <img class="btn-search" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" />
         </div>
-        <OpportunityCard number={10} image={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/103_Hanover.jpg/1200px-103_Hanover.jpg'} />
+        <OpportunityCard spots={5} max={8} categories="Cleaning, Chatting" number={10} image={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/103_Hanover.jpg/1200px-103_Hanover.jpg'} />
       </div>
       <Footer />
     </div>
