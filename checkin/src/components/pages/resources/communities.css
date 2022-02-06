@@ -24,10 +24,6 @@
   cursor: default;
 }
 
-.profile-mask-com {
-  top: 15.5vh !important;
-}
-
 .profile-mask h1 {
   font-size: 18px;
   margin-top: 6.5em;
@@ -60,6 +56,6 @@
 .force-move-profile {
   position: absolute;
 
-  top: 15.75vh;
+  top: 13.9vh !important;
   left: 4vw;
 }

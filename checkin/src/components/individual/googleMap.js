@@ -10,6 +10,12 @@ const CurrentLocation = () => {
   );
 };
 
+const RadiusZone = () => {
+  return (
+    <div class="other-radius"></div>
+  );
+};
+
 class GoogleMap extends Component {
   static defaultProps = {
     center: {
@@ -31,6 +37,18 @@ class GoogleMap extends Component {
           <CurrentLocation
             lat={44.2312}
             lng={-76.4860}
+          />
+          <RadiusZone
+            lat={44.307989}
+            lng={-76.578140}
+          />
+          <RadiusZone
+            lat={44.295539}
+            lng={-76.593497}
+          />
+          <RadiusZone
+            lat={44.214228}
+            lng={-76.514053}
           />
         </GoogleMapReact>
       </div>
