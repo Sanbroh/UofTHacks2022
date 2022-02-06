@@ -1,6 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
+const http = require('http');
+const MessagingResponse = require('twilio').twiml.MessagingResponse;
 var corsOptions = {
   origin: "http://localhost:8081"
 };
@@ -9,6 +11,19 @@ app.use(cors());
 app.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
+
+app.post('/sms', (req, res) => {
+  const twiml = new MessagingResponse();
+
+  twiml.message('The Robots are coming! Head for the hills!');
+
+  res.writeHead(200, {'Content-Type': 'text/xml'});
+  res.end(twiml.toString());
+});
+
+http.createServer(app).listen(4000, () => {
+  console.log('Express server listening on port 4000');
+});
 // simple route
 app.get("/", (req, res) => {
   res.json({ message: "Server Checked in successful!" });

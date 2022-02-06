@@ -24,6 +24,10 @@
   cursor: default;
 }
 
+.profile-mask-com {
+  top: 15.5vh !important;
+}
+
 .profile-mask h1 {
   font-size: 18px;
   margin-top: 6.5em;

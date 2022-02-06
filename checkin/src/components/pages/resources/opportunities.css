@@ -21,7 +21,7 @@
 
   background-color: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(4px);
-  top: 15.75vh;
+  top: 14vh;
   left: 4vw;
   text-align: center;
   cursor: default;
@@ -132,4 +132,11 @@
 .requests-nav .requests-nav-title h1 {
   font-size: 18px;
   font-family: 'Supermercado One', cursive;
+}
+
+.force-move-profile {
+  position: absolute;
+
+  top: 15.75vh;
+  left: 4vw;
 }

@@ -26,7 +26,7 @@ const Opportunities = () => {
       <div class="title">
         <h1>Browse Opportunities</h1>
       </div>
-      <div style={{ display: 'inline-block' }}>
+      <div id="force-move-profile" style={{ display: 'inline-block' }}>
         <ProfileCard
           name="Thomas Tesselaar"
           email="tthomas2@gmail.com"

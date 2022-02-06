@@ -23,7 +23,7 @@ const Communities = () => {
       <div class="title">
         <h1>Browse Communities</h1>
       </div>
-      <div class="profile-mask">
+      <div class="profile-mask profile-mask-com">
         <h1>You're not logged in!</h1>
         <h2>Sign in now to access your records.</h2>
         <Link to="/sign-in"><button>Sign In</button></Link>
