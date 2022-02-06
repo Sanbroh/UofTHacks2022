@@ -1,0 +1,93 @@
+.communityCard-body {
+  width: 70.6vw;
+  height: 8em;
+  border-radius: 16px;
+  border-style: solid;
+  border-Width: 0.2em;
+  border-Color: #3d405b;
+  background-color: white;
+  margin-bottom: 0.5em;
+
+  cursor: pointer;
+}
+
+.communityCard-body:hover {
+  border-style: dashed;
+  border-color: #e07a5f;
+  /*background-color: #f4f1de;*/
+}
+
+.communityCard-img {
+  display: inline-block;
+}
+
+.communityCard-img img {
+  height: 6.5em;
+  width: 6.5em;
+  border-style: solid;
+  border-width: 0.15em;
+  border-radius: 16px;
+
+  margin-top: 0.5em;
+  margin-left: 0.75vw;
+}
+
+.communityCard-text {
+  height: 6.75em;
+  width: 40vw;
+  margin-left: 1.5vw;
+  border-color: #3d405b;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 0.2em;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-top: -5.75em;
+  padding-left: 1em;
+}
+
+.communityCard-text h1, .communityCard-text h2, .communityCard-text h3 {
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 0;
+}
+
+.communityCard-text h1 {
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.communityCard-text h2 {
+  font-size: 12px;
+  color: grey;
+  line-height: 12px;
+}
+
+.communityCard-text h3 {
+  font-size: 8px;
+  line-height: 8px;
+}
+
+.communityCard-btn {
+  display: inline-block;
+  height: 6.75em;
+  width: 18vw;
+  vertical-align: text-top;
+  margin-top: -5.75em;
+}
+
+.communityCard-btn button {
+  width: 12em;
+  height: 3.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.view-more {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 2.5em;
+}

@@ -28,7 +28,7 @@ const Opportunities = () => {
       <div style={{ display: 'inline-block' }}>
         <ProfileCard
           name="Thomas Tesselaar"
-          email="tthomas2@gmail.com"
+          email="thomastesselaar6@gmail.com"
           status="Volunteer"
           volunteerNum="32"
           followerNum="1"
