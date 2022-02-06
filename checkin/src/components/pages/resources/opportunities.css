@@ -39,9 +39,25 @@
 }
 
 .requests {
-  width: 75vw;
+  width: 71vw;
   height: 100em;
   margin-left: 17.5em;
   margin-top: 1em;
   background-color: white;
+  padding: 1em 2vw;
+}
+
+.requests-nav {
+  width: 70.6vw;
+  height: 3em;
+  margin-bottom: 1em;
+  border-radius: 16px;
+  border-style: solid;
+  border-Width: 0.2em;
+  border-Color: #3d405b;
+
+  border-bottom-width: 0.5em;
+  border-bottom-color: #e07a5f;
+  box-shadow: 2px 2px 5px grey;
+
 }

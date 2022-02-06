@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../individual/footer'
+import Login from '../individual/login'
 
 const SignIn = () => {
   return (
@@ -15,6 +16,7 @@ const SignIn = () => {
       padding: '10vh 4vw'
       }}
     >
+      <Login />
       <Footer />
     </div>
   );

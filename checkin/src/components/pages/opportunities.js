@@ -4,6 +4,7 @@ import OppoButton from '../individual/oppoButton'
 import GoogleMap from '../individual/googleMap'
 import MapTimeLine from '../individual/mapTimeLine'
 import CurrentTime from '../individual/currentTime'
+import OpportunityCard from '../individual/opportunityCard'
 import Footer from '../individual/footer'
 import './resources/opportunities.css'
 
@@ -51,7 +52,10 @@ const Opportunities = () => {
         <MapTimeLine />
       </div>
       <div class="requests outlined">
+        <div class="requests-nav">
 
+        </div>
+        <OpportunityCard number={10} image={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/103_Hanover.jpg/1200px-103_Hanover.jpg'} />
       </div>
       <Footer />
     </div>

@@ -1,0 +1,93 @@
+.signin-body {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  width: 25em;
+  height: 27em;
+
+  border-Style: solid;
+  border-Width: 0.2em;
+  border-Color: #3d405b;
+  border-Radius: 16px;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #e07a5f;
+  box-shadow: 2px 2px 5px grey;
+  background-color: white;
+
+  text-align: center;
+}
+
+.signin-title, .signin-subtitle {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.signin-title {
+  font-family: 'Supermercado One', cursive;
+  margin-top: 1em;
+  font-size: 36px;
+}
+
+.signin-subtitle {
+  margin-top: -1em;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-bottom: 2em;
+}
+
+.signin-body .input-box {
+  font-family: 'Oxygen', sans-serif;
+  height: 3em;
+  width: 20em;
+  margin: 0;
+  margin-top: -1em;
+
+  border-width: 0.1em;
+  border-color: #3d405b;
+  border-style: none;
+  border-bottom-style: solid;
+  margin-top: 0.05em;
+}
+
+#button-submit {
+  margin-top: 0.5em;
+  width: 10em;
+  height: 4em;
+  border-Style: solid;
+  border-Width: 0.2em;
+  border-Color: #3d405b;
+  border-Radius: 16px;
+  background-color: white;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #e07a5f;
+
+  box-shadow: 2px 2px 5px grey;
+  color: black;
+  font-family: 'Supermercado One', cursive;
+  font-weight: bolder;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#button-submit:hover {
+  color: #e07a5f;
+
+  transition: 0.5s;
+}
+
+.no-account, .forgot-password {
+  font-family: 'Oxygen', sans-serif;
+  color: grey;
+  font-weight: bolder;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  text-decoration: underline;
+}
+
+.no-account:hover, .forgot-password:hover {
+  color: #e07a5f;
+  transition: 0.5s;
+}

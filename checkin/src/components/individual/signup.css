@@ -81,4 +81,14 @@
   color: grey;
   font-weight: bolder;
   font-size: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+
+  transition: 0.5s;
+}
+
+.privacy-confirm:hover {
+  color: #e07a5f;
+
+  transition: 0.5s;
 }

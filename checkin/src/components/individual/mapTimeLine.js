@@ -58,7 +58,7 @@ const MapTimeLine = () => {
     <Box sx={{ width: '65vw', margin: 'auto', display: 'block' }}>
       <Slider
         aria-label="Restricted values"
-        defaultValue={20}
+        defaultValue={0}
         valueLabelFormat={valueLabelFormat}
         getAriaValueText={valuetext}
         step={null}
