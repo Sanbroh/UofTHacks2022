@@ -6,7 +6,14 @@ const OpportunityCard = ({
   image,
   spots,
   max,
-  categories
+  categories,
+  locationName,
+  locationType,
+  locationAddress,
+  locationEmail,
+  locationPhone,
+  locationTime,
+  last
 }) => {
   const activities = [];
 
@@ -18,12 +25,12 @@ const OpportunityCard = ({
         </div>
         <div class="opportunityCard-text">
           <div class="opportunityCard-description">
-            <h1>Northeastern Estate Care Centre</h1>
-            <h2>(Senior Care Centre)</h2>
-            <h3>Address: 14 York St. East, Toronto, L7T I8O</h3>
-            <h3>Email: neecares@gmail.com</h3>
-            <h3>Phone: 647-887-9829</h3>
-            <h3>Open: 9AM - 7PM (10AM - 5PM Sundays)</h3>
+            <h1>{locationName}</h1>
+            <h2>({locationType})</h2>
+            <h3>Address: {locationAddress}</h3>
+            <h3>Email: {locationEmail}</h3>
+            <h3>Phone: {locationPhone}</h3>
+            <h3>Open: {locationTime}</h3>
           </div>
           <div class="opportunityCard-info">
             <h4>Volunteers Needed: {spots}/{max}</h4>
@@ -38,7 +45,7 @@ const OpportunityCard = ({
     );
   };
 
-  if (number >= 10) {
+  if (number >= 10 || last) {
     activities.push(
       <button class="view-more">View More</button>
     );

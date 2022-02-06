@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import './googleMap.css';
 
-const MapMarker = ({ text }) => <div>{text}</div>;
+const CurrentLocation = () => {
+  return(
+    <div class="current-radius">
+      <img style={{ width: '2em', height: '2em' }} src="https://freesvg.org/img/kuba_arrow_button_set_1.png" />
+    </div>
+  );
+};
 
 class GoogleMap extends Component {
   static defaultProps = {
     center: {
-      lat: 43.651070,
-      lng: -79.347015
+      lat: 44.2312,
+      lng: -76.4860
     },
     zoom: 11
   };
@@ -21,7 +28,10 @@ class GoogleMap extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          
+          <CurrentLocation
+            lat={44.2312}
+            lng={-76.4860}
+          />
         </GoogleMapReact>
       </div>
     );

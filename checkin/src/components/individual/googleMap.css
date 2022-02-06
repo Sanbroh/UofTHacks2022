@@ -1,0 +1,11 @@
+.current-radius {
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.3em;
+  border-color: white;
+  height: 10.5em;
+  width: 10em;
+  padding-left: 7.5em;
+  padding-top: 7.5em;
+}

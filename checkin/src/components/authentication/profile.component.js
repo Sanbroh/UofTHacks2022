@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import AuthService from "../services/auth.service";
 import './auth.css';
 import { NavLink as Link } from 'react-router-dom';
-export default class Profile extends Component {
+export default class ProfileHOLDER extends Component {
   constructor(props) {
     super(props);
     this.state = {
