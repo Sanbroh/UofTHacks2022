@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../individual/footer'
 import Signup from '../individual/signup'
+import Register from '../authentication/register.component'
 
 const SignUp = () => {
   return (
@@ -16,7 +17,7 @@ const SignUp = () => {
       padding: '10vh 4vw'
       }}
     >
-      <Signup />
+      <Register />
       <Footer />
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import './login.css'
 import { NavLink as Link } from 'react-router-dom';
 
-const Login = () => {
+const Signin = () => {
   return (
     <div class="signin-body">
       <h1 class="signin-title">Sign In</h1>
@@ -18,4 +18,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signin;

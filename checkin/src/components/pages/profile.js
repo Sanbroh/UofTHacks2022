@@ -1,20 +1,24 @@
 import React from 'react';
 import Footer from '../individual/footer'
+import Profile from '../authentication/profile.component'
 
-const Profile = () => {
+const ProfilePage = () => {
   return (
     <div
       style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh',
-        marginTop: '4em'
+        marginTop: '2em',
+        backgroundColor: '#f4f1de',
+        width: '100vw',
+        position: 'absolute',
+        left: 0,
+        top: 0,
+        zIndex: -1,
+        padding: '6vh 4vw'
       }}
     >
-      <h1>GeeksforGeeks is a geek.</h1>
+      <Profile />
     </div>
   );
 };
 
-export default Profile;
+export default ProfilePage;
