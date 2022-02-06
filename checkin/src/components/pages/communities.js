@@ -3,6 +3,7 @@ import ProfileCard from '../individual/profileCard'
 import OppoButton from '../individual/oppoButton'
 import CommunityCard from '../individual/communityCard'
 import Footer from '../individual/footer'
+import './resources/communities.css'
 
 const Communities = () => {
   return (
@@ -38,9 +39,11 @@ const Communities = () => {
           <OppoButton name="Volunteer History"/>
         </div>
       </div>
-      <div class="requests outlined">
+      <div class="requests outlined" style={{ display: 'inline-block' }}>
         <div class="requests-nav">
-
+        <div class="title">
+          <h1>Local Communities</h1>
+        </div>
         </div>
         <CommunityCard number={10} image={'https://cdn.logojoy.com/wp-content/uploads/2018/05/30171740/1645.png'} />
       </div>
