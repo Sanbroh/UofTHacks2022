@@ -8,7 +8,7 @@
   background-color: white;
   margin-bottom: 0.5em;
 
-  cursor: pointer;
+  cursor: default;
 }
 
 .opportunityCard-body:hover {
@@ -34,7 +34,7 @@
 
 .opportunityCard-text {
   height: 6.75em;
-  width: 40vw;
+  width: 37.5vw;
   margin-left: 1.5vw;
   border-color: #3d405b;
   border-left-style: solid;
@@ -67,20 +67,39 @@
   line-height: 8px;
 }
 
+.opportunityCard-description {
+  display: inline-block;
+}
+
+.opportunityCard-info {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.opportunityCard-info h4 {
+  color: white;
+  background-color: #81b29a;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 16px;
+  font-size: 12px;
+  font-family: 'Oxygen', sans-serif;
+}
+
 .opportunityCard-btn {
   display: inline-block;
   height: 6.75em;
-  width: 18vw;
+  width: 15vw;
   vertical-align: text-top;
   margin-top: -5.75em;
 }
 
 .opportunityCard-btn button {
-  width: 12em;
+  width: 10vw;
   height: 3.5em;
   margin-top: 0.25em;
   margin-bottom: 0.5em;
-  margin-left: auto;
+  margin-left: 5.25vw;
   margin-right: auto;
   display: block;
 }
